@@ -1,0 +1,100 @@
+body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.letra{
+    width: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px;
+    display: none;
+    
+}
+.letraj{
+    width: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px;
+}
+#dvmenu{
+    font-size: 50px;
+}
+button{
+    background-color: rgb(250, 244, 237);
+    border-color: beige;
+    box-shadow: 0 0 4px;
+    margin: 10px auto;
+    font-size: large;
+}
+dvdisplay{
+    display: block;
+}
+#palavra{
+    font-size: 30px;
+}
+#dvletrasdigitadas{
+    font-size: 30px;
+    color:red
+}
+#pLetra{
+    font-size: 500px;
+    color: blue;
+}
+#dvmsgp{
+    color: rgb(210, 30, 30);
+    font-size: 40px;
+}
+#dvmsg{
+    color:rgb(93, 233, 13);
+    font-size: 40px;
+}
+#dvForca{
+    position:absolute;
+    left: 150px;
+}
+#forca{
+    position:absolute;
+    left: 150px;
+}
+#cabeca{
+    position:absolute;
+    top: 120px;
+    left: 520px;
+}
+#corpo{
+    position:absolute;
+    top: 195px;
+    left: 545px;
+}
+#bracoE{
+    position:absolute;
+    top: 210px;
+    left: 505px;
+}
+#bracoD{
+    position:absolute;
+    top: 210px;
+    left: 560px;
+}
+#pernaE{
+    position:absolute;
+    top: 310px;
+    left: 505px;
+}
+#pernaD{
+    position:absolute;
+    top: 310px;
+    left: 560px;
+}   
+#qua{
+    display: none;
+}
+#cin{
+    display: none;
+}
+#resp{
+    display: none;
+}

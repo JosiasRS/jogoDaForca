@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da forca</title>
+</head>
+<body>
+    <div id="dvmenu" class="dvdisplay">
+        <button onclick="inicia()" id="in">Começar</button>
+        <button onclick="quatro()" id="qua">Quatro Letras</button>
+        <button onclick="cinco()" id="cin">Cinco ou + Letras</button>
+    </div>
+    <div id="dvplavra" class="dvdisplay">
+        <input type="text" id="letra0" class="letra" maxlength="1">
+        <input type="text" id="letra1" class="letra" maxlength="1">
+        <input type="text" id="letra2" class="letra" maxlength="1">
+        <input type="text" id="letra3" class="letra" maxlength="1">
+        <input type="text" id="letra4" class="letra" maxlength="1">
+        <input type="text" id="letra5" class="letra" maxlength="1">
+        <input type="text" id="letra6" class="letra" maxlength="1">
+        <input type="text" id="letra7" class="letra" maxlength="1">
+        <input type="text" id="letra8" class="letra" maxlength="1">
+        <input type="text" id="letra9" class="letra" maxlength="1">
+        <input type="text" id="letra10" class="letra" maxlength="1">
+    </div>
+    <div id="dvjogador" class="dvdisplay">
+        <div id="controlesJogador">
+            <input type="text" id="letraJ" class="letraJ" maxlength="1">
+            <button onclick="jogar()">jogar</button>
+            <button onclick="dica()">Dica</button>
+            <button onclick="resposta()" id="resp">Resposta</button>
+            <div id="dvmsg"></div><br>
+            <div id="dvmsgp"></div><br>
+            <div id="palavra">Adivinhe a palavra que começa com a letra:</div>
+            <div id="dvletrasdigitadas"></div>
+            <div id="pLetra"></div>
+        </div>
+        <div id="dvForca">
+            <img id="forca" src="img/forca.png">
+            <img id="cabeca" src="img/cabeca1.png">
+            <img id="corpo" src="img/corpo.png">
+            <img id="bracoE" src="img/bracoE.png">
+            <img id="bracoD" src="img/bracoD.png">
+            <img id="pernaE" src="img/pernaE.png">
+            <img id="pernaD" src="img/pernaD.png">
+        </div> 
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
